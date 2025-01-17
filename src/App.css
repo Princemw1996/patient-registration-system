@@ -1,0 +1,78 @@
+/* App.css */
+.App {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7f6;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;  /* Adjusted form width */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+  outline: none;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  background-color: #4CAF50;  /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;  /* Ensure the button is full-width */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #388e3c;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
